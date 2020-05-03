@@ -204,7 +204,6 @@ nav .sub a:not(:first-child) { border-top: 1px solid #eee; }
 
 /* VISUAL - buttons */
 .visual .buttons {
-    margin-top: 20px;
     width: calc(8px * 3 + 20px * 2);
     display: flex;
     justify-content: space-between;
@@ -258,7 +257,7 @@ nav .sub a:not(:first-child) { border-top: 1px solid #eee; }
 
 .visual .t-title {
     margin-bottom: 1em;
-    color: #fffa;
+    color: #fff;
     position: relative;
     display: inline-block;
 }
@@ -302,6 +301,9 @@ nav .sub a:not(:first-child) { border-top: 1px solid #eee; }
 
 
 /* COMMON */
+.pre-line { white-space: pre-line; }
+.normal-line { white-space: normal; }
+
 .float-left { float: left; }
 .float-right { float: right; }
 .clear-both { clear: both; }
