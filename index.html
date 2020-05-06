@@ -16,8 +16,9 @@
 </head>
 <body>
     <!-- HEADER -->
+    <input type="checkbox" id="nav-open" hidden>
     <header class="index">
-        <div class="wrap h-100 d-flex justify-content-between align-items-center">
+        <div class="wrap h-100 d-flex justify-content-between align-items-center px-3">
             <a class="logo" href="index.html">
                 <img src="./images/logo.png" alt="COVID 1339">
             </a>
@@ -56,6 +57,43 @@
                 <a href="#" class="mr-4">로그인</a>
                 <a href="#">회원가입</a>
             </div>
+            <div class="m-nav d-none d-sm-block">
+                <div class="nav-item has-sub">
+                    <a href="sub1.html" class="fx-3">COVID 19</a>
+                    <div class="sub">
+                        <a href="sub1.html">코로나 바로알기</a>
+                        <a href="sub2.html">환자 치료 및 관리</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#">감염 현황</a>
+                </div>
+                <div class="nav-item has-sub">
+                    <a href="#">지침사항</a>
+                    <div class="sub">
+                        <a href="#">일반인</a>
+                        <a href="#">입국인 및 해외여행객</a>
+                        <a href="#">자가격리자</a>
+                        <a href="#">기업 및 시장</a>
+                    </div>
+                </div>
+                <div class="nav-item has-sub">
+                    <a href="#">시민 참여</a>
+                    <div class="sub">
+                        <a href="#">시민 우편함</a>
+                        <a href="#">잠시 멈춤 캠페인</a>
+                    </div>
+                </div>
+                <div class="m-auth-area text-white fx-n2 d-sm-none">
+                    <a href="#" class="mr-4">로그인</a>
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+            <label for="nav-open" class="btn-menu d-none d-sm-block">
+                <span class="d-block"></span>
+                <span class="d-block"></span>
+                <span class="d-block"></span>
+            </label>
         </div>
     </header>
     <!-- /HEADER -->
