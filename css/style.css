@@ -177,9 +177,12 @@ nav .sub a:hover {
 }
 
 .visual .images img {
+    top: -100%;
     object-fit: cover;
     object-position: center top;
 }
+
+.visual .images img:first-child { top: 0; }
 
 /* VISUAL - texts */
 
